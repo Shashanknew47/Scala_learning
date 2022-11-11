@@ -1,3 +1,10 @@
 {
-    "workbench.colorTheme": "Monokai"
+    "workbench.colorTheme": "Monokai",
+    "files.watcherExclude": {
+        "**/target": true
+    },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.showExecutionMessage": false,
+  "code-runner.preserveFocus": true,
 }
