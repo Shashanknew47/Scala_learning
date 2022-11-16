@@ -21,6 +21,5 @@ object ValueVariableTypes extends App {
     println(big_integer)
 
 
-  
  
 }

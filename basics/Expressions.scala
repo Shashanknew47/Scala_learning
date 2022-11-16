@@ -19,5 +19,16 @@ object Expressions extends App {
         
     println(u_val)
 
+
+    // In code block return value will be the return value of last expression
+
+    val blockValue = {
+        var s = 45;
+        if (s > 50) "big" else "small";
+    }
+    println(blockValue);
+
+    var x = println(12);
+    println(x);
   
 }
