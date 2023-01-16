@@ -1,5 +1,5 @@
 object OopBasics extends App {
-    // whenever you will instantiate the class. whole class block will be executed. 
+    // whenever you will instantiate the class. whole class block will be executed.
     // bez of that we got 13 in output.
     val person = new Person("Shashank",30)
     println(person)
@@ -20,6 +20,4 @@ class Person(name:String,val age:Int) {
         return first_name + " " + last_name
     }
 
-
 }
-
